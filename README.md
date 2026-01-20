@@ -31,7 +31,7 @@ The script is executed in **Visual Studio Code** using **Python**, with the repo
 * DataFrame (`df`) contains eight feature variables and one target variable (median house value).
 * A preliminary data check is performed to confirm successful data loading and structure.
 
-Box plot generation:
+**Box plot generation:**
 * Specifying figure size (12 x 8).
 * Selecting the **house age** column for visualization.
 * Adding descriptive plot title and y-label.
