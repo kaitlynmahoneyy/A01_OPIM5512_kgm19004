@@ -1,20 +1,46 @@
 # A01_OPIM5512_kgm19004
-A01 - first OPIM assignment
+Repository: `A01 - first OPIM assignment`
 
-The purpose of this assignment is to get familiar with GitHub (website and desktop), making a repository, cloning it, and running a small code to make a box plot.
+The purpose of this assignment is to become familiar with GitHub (web interface and GitHub desktop), including making a repository, cloning it locally, and executing a simple python script to generate running a box plot.
 
 # Data used
-A California Housing data set is used for this assignment. The data set contains the median income, house age, average rooms, average bedrooms, population, average occupation, latitude, longitude, and median house value.
+This assignment uses the **California Housing** dataset. The following variables are included:
 
-The specific data used for my box plot is the house age.
+* Median Income
+* House Age
+* Average Rooms
+* Average Bedrooms
+* Population
+* Average Occupation
+* Latitude
+* Longitude
+* Median House Value
+  
+For this assignment, the box plot is created using the **house age** variable.
 
 # How to run the script
-The script is run in the Visual Studio Code in python from GitHub Desktop.
+The script is executed in **Visual Studio Code** using **Python**, with the repository managed through **GitHub Desktop**.
+  1. Clone the repository using GitHub Desktop.
+  2. Open the project in Visual Studio Code.
+  3. Run the Python script from the integrated terminal.
 
-The data is loaded, pandas is used for data manipulation, and matplotlib.pyplot is used to create the box plot. The data is returned as a pandas DataFrame and df is equal to the eight features and the target variable, which is the median house value. A quick data check shows the user what they are looking at.
+**Methods**
+* Dataset loaded into Python and returned as a **pandas DataFrame**.
+* `panda`s is used for data manipulation.
+* `matplotlib.pyplot` is used to generate the box plot.
+* DataFrame (`df`) contains eight feature variables and one target variable (median house value).
+* A preliminary data check is performed to confirm successful data loading and structure.
 
-The box plot is created by first designating the figure size (essentially 12 x 8 for this figure). The specific column chosen for the box plot is specified and a title and y-label is added. The figure is then saved to the figs file in A01_OPIM5512_kgm19004.
+Box plot generation:
+* Specifying figure size (12 x 8).
+* Selecting the **house age** column for visualization.
+* Adding descriptive plot title and y-label.
+* Saving the resulting figure to the `figs` directory within the repository
 
 # Expected Output
-The expected output is a saved box plot for the House Age. The box plot will indicate a maximum and minimum (shown by the top and bottom whisker), a median (green line), and the 25th and 75th percentile (top and bottom of the box).
+The expected output is a saved box plot visualizing the **house age**. The plot displays:
+* Minimum and maximum values (lower and upper whiskers)
+* Median value (green central line)
+* 25th and 75th percentiles (lower and upper edges of the box)
 
+The visualization provides a concise summary of the distribution and variability of house age in the data set.
