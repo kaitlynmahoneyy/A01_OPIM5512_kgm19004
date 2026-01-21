@@ -1,7 +1,7 @@
 # A01_OPIM5512_kgm19004
 Repository: `A01 - first OPIM assignment`
 
-The purpose of this assignment is to become familiar with GitHub (web interface and GitHub desktop), including making a repository, cloning it locally, and executing a simple python script to generate running a box plot.
+The goal of this assignment is to become familiar with GitHub (web interface and GitHub desktop), including making a repository, cloning it locally, and executing a simple python script to generate running a box plot.
 
 # Data used
 This assignment uses the **California Housing** dataset. The following variables are included:
@@ -16,10 +16,10 @@ This assignment uses the **California Housing** dataset. The following variables
 * Longitude
 * Median House Value
   
-For this assignment, the box plot is created using the **house age** variable.
+For this assignment, I created a box plot using the **house age** variable.
 
 # How to run the script
-The script is executed in **Visual Studio Code** using **Python**, with the repository managed through **GitHub Desktop**.
+I ran the script in **Visual Studio Code** using **Python**, with the repository managed through **GitHub Desktop**.
   1. Clone the repository using GitHub Desktop.
   2. Open the project in Visual Studio Code.
   3. Run the Python script from the integrated terminal.
