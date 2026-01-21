@@ -26,7 +26,7 @@ The script is executed in **Visual Studio Code** using **Python**, with the repo
 
 **Methods**
 * Dataset loaded into Python and returned as a **pandas DataFrame**.
-* `panda`s is used for data manipulation.
+* `pandas` is used for data manipulation.
 * `matplotlib.pyplot` is used to generate the box plot.
 * DataFrame (`df`) contains eight feature variables and one target variable (median house value).
 * A preliminary data check is performed to confirm successful data loading and structure.
